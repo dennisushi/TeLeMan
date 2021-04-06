@@ -1,21 +1,8 @@
-#########
-#
-# workshop-template-b, evanwill
-# a Jekyll template for a simple workshop website
-# https://github.com/evanwill/workshop-template-b
-#
-#########
-
-
-# Go down the configuration yaml and edit the fields that you want to
-# be included in your website.
-
-
 #######
 # SITE SETTINGS
 #
 # title appears in the header
-title: RPL Seminar
+title: TeLeMan
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open

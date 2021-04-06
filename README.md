@@ -1,4 +1,4 @@
-For best viewing, open the actual website [here](https://rpl-cs-ucl.github.io/seminar-template/)
+For best viewing, open the actual website [here](https://rpl-cs-ucl.github.io/TeLeMan/)
 
 ## Tutorial
 

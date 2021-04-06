@@ -9,7 +9,7 @@ title: TeLeMan
 title-icon: fas fa-robot
 # description, keywords, and image for meta tags
 description: "Create a workshop website quick and easy!"
-keywords: "seminar, RPL, UCL, robotics, perception, learning"
+keywords: "UCL, RPL"
 featured-image: "/images/index.jpg"
 # add search box to footer? true/false
 search: true
@@ -21,7 +21,7 @@ github_username: rpl-cs-ucl
 # year or date published
 pub_year: 2021
 # location of code, the full url to your github repository
-source-code: https://github.com/RPL-CS-UCL/workshop-template-b
+source-code: https://github.com/rpl-as-ucl/TeLeMan
 
 ##########
 # URL VARIABLES [optional!]

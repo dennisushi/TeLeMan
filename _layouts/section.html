@@ -23,6 +23,10 @@ layout: default
 {% include template/person.html %}
 {%- endif -%}
 
+{% if page.people %}
+{% include template/consortium-element.html %}
+{%- endif -%}
+
 {% if page.type %}
 {% if page.type == 'videos' %}
 	{% for video in site.html_pages %}

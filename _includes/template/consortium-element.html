@@ -1,0 +1,27 @@
+<div class="row justify-content-center">
+    	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+            {% for section in site.html_pages %}
+            {% if section.consortium %}
+	          <tr>
+	            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:150px">
+	                <img src="{{ section.image | prepend: '/images/people/' | relative_url }}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+	            </td>
+	            <td style="padding:2.5%;width:75%;">
+	              	<h4>
+	              	{% if section.link %}<a href="{{section.link}}">{% endif %}	
+	              	{{section.consortium}}
+	              	{% if section.link %}</a>{% endif %}
+	          		</h4>
+	              <br>
+	              {% if section.description %}
+	              {{section.description}}
+	              {% endif %}
+	            </td>
+	          </tr>
+	        {% endif %}
+          {% endfor %}
+        </table>
+    <div class="m-3 col-md-8" >
+    </div>
+</div>
